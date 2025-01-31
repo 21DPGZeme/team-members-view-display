@@ -1,0 +1,21 @@
+uuid: 63092409-902a-414a-bb77-a9ccab3abc90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hiring_date
+    - node.type.team_member
+  module:
+    - datetime
+id: node.team_member.field_hiring_date
+field_name: field_hiring_date
+entity_type: node
+bundle: team_member
+label: 'Hiring Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

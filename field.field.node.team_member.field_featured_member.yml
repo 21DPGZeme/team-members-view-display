@@ -1,0 +1,21 @@
+uuid: a93c9d53-d238-4594-bb20-fbe98d66bc76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_member
+    - node.type.team_member
+id: node.team_member.field_featured_member
+field_name: field_featured_member
+entity_type: node
+bundle: team_member
+label: 'Featured Member'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

@@ -1,0 +1,15 @@
+uuid: b2fc4c04-dff6-4f99-8dd2-8fa35c4bfe6b
+langcode: en
+status: true
+dependencies: {  }
+name: scaled_to_200x200
+label: 'Scaled To 200x200'
+effects:
+  d779ad77-4c31-4c1d-9726-aebc5ab1f76b:
+    uuid: d779ad77-4c31-4c1d-9726-aebc5ab1f76b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center
